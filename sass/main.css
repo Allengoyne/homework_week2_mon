@@ -5,49 +5,53 @@
 
 .form-wrapper {
   width: 100%;
-  height: 555px;
   display: inline-block;
   background: #5BA3D6;
   clear: both;
-  color: #fff; }
+  color: #fff;
+  height: 500px; }
 
 .left-col {
   background-color: #5BA3D6;
   float: left;
   display: inline-block;
-  width: 33%;
-  padding: 25px; }
+  width: 30%;
+  padding-left: 25px; }
 
 .mid-col {
   float: left;
   display: inline-block;
   width: 33%;
-  padding: 25px; }
+  padding: 0;
+  clear: right;
+  margin-top: 40px; }
 
 .right-col {
   float: right;
   display: inline-block;
-  width: 33%;
-  padding: 25px; }
+  width: 33%; }
 
 fieldset {
   border: none;
-  margin: 0 auto; }
+  overflow: visible; }
   fieldset input {
     background: #5BA3D6;
     border: 2px solid #fff;
     color: #fff;
-    width: 21.07em;
+    width: 95%;
     height: 40px;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    clear: both; }
   fieldset textarea {
     background: #5BA3D6;
     border: 2px solid #fff;
     color: #fff;
-    margin: 10px 20px 0 0; }
+    margin: 10px 20px 0 0;
+    width: 95%; }
   fieldset select {
     background: #5BA3D6;
     color: #fff;
     border: 2px solid #fff;
-    margin: 30px 25px 0 0;
     width: 300px; }
+  fieldset label {
+    padding: 0; }
